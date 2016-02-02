@@ -1,7 +1,96 @@
-body {
-	color: red;
-}
 
-#map-canvas {
-	height: 100%;
-}
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+     }
+
+
+  .navbar{
+  	height:2em;
+  	margin-bottom: 0;
+  }
+
+  .navigation{
+  	position: fixed;
+  	width:100vw;
+  	top:0;
+
+  	div{
+  		display:inline-block;
+  	}
+  }
+
+  .box{
+  	top:50px;
+  	height:100%;
+  	position: fixed;
+
+
+  	.inline{
+  		display:inline-block;
+ 
+  		vertical-align: top;
+  		
+  	}
+  }
+
+   #map {
+    
+        position:absolute;
+        width:80vw;
+        z-index: 1;
+        height:100%;
+
+
+      }
+
+
+  .planning{
+
+  	width:20vw;
+  	background-color: #999999;
+  	height:100%;
+
+  	hr{
+  		margin-bottom: .3em;
+
+  	}
+
+  	h3{
+  		text-align: center;
+
+  	}
+  	
+  	
+  	label{
+  		margin-left: 5%;
+  		margin-bottom: .5em;
+  	}
+  	select{
+  		margin-left: 5%;
+  		width:90%;
+  
+    	
+  	}
+
+  }
+
+ .day{
+  	width:10vw;
+  	background-color: red;
+  	position:absolute;
+    z-index:2;
+    margin-left:70vw;
+  	height:40%; 
+
+  }
+
+
+
+
+
+
+
+
+
