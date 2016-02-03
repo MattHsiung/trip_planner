@@ -1,8 +1,15 @@
 {% extends "layout.html" %}
 
 {% block body %}
-<div class = "form-group">
-<label for="hotels">Hotel</label>
+
+
+
+<div class="panel">
+  
+  
+
+
+  <label for="restaurants">Hotels</label>
   <select name="hotels">
     {% for hotel in hotels %}
       <option value="{{hotel.name}}">{{hotel.name}}</option> 
@@ -26,7 +33,10 @@
       <option value="{{activity.name}}">{{activity.name}}</option> 
     {% endfor %}
   </select>
+
+ 
 </div>
+
  
 
 {% endblock %}
